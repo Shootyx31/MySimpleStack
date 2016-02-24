@@ -1,11 +1,12 @@
 package dcll.vman.MySimpleStack;
 
-import org.omg.CORBA.Object;
-
 import java.util.EmptyStackException;
+import java.util.Stack;
 
 /**
  * Created by valentin on 24/02/16.
+ *
+ *  Un commentaire répondant à l'exigence #3
  */
 public class SimpleStackImp implements SimpleStack{
 
