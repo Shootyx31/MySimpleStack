@@ -1,19 +1,17 @@
 package dcll.vman.MySimpleStack;
 
-import org.omg.CORBA.Object;
-
 /**
  * Created by valentin on 24/02/16.
  */
 public class Item {
     private Object value;
 
-    Item(Object value){
+    public Item(Object value){
         setValue(value);
     }
 
     /**
-     * j'ai modifié ca
+     * exigence #1
      * @return
      */
     public Object getValue(){
